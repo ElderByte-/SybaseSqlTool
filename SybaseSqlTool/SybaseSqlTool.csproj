@@ -81,6 +81,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\CharsetFixer.cs" />
     <Compile Include="Model\DatabaseType.cs" />
     <Compile Include="Model\IDatabaseConnection.cs" />
     <Compile Include="Model\MsSQLDatabaseConnection.cs" />

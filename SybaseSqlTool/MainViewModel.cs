@@ -20,6 +20,9 @@ namespace SybaseSqlTool
         public MainViewModel()
         {
             DatabaseType = DatabaseType.Sybase;
+
+            //new CharsetFixer().FixCharset();
+
         }
 
         #region Viewmodel Properties

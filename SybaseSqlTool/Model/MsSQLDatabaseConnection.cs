@@ -6,6 +6,9 @@ using System.Data.SqlClient;
 
 namespace SybaseSqlTool.Model
 {
+    /// <summary>
+    /// CharSet=UTF8;
+    /// </summary>
     public class MsSQLDatabaseConnection : IDatabaseConnection
     {
         private SqlConnection _connection;
